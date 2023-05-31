@@ -120,8 +120,8 @@ To run the project locally, execute the following command:
 - Run the following command;
   - npm install
   - npm run server (You should see a success result)
-  - Now access the app on port 3000 by entering the following in your browser:
-  - http://localhost:3000
+  - Now access the app on port 8080 by entering the following in your browser:
+  - http://localhost:8080
 
 ### Run tests
 
@@ -193,7 +193,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Full CURD functionality**
-- **Improed interactive: Eg: Popup alert on deleting or adding a score**
+- **Improved interactive: Eg: Popup alert on deleting or adding a score**
 - **Changing UI - look and feel**
 - **Improved Aesthetics & Design**
 
