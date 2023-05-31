@@ -10,7 +10,6 @@ class ScoresStorage {
   }
 
   static scoreListLength = ScoresStorage.scoreStore().length;
-
-};
+}
 
 export default ScoresStorage;

@@ -20,3 +20,5 @@ addNewScore();
 
 // showing the list of scores recorded
 displayScores();
+
+export default bootstrap;

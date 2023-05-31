@@ -1,6 +1,5 @@
 import ScoresClass from './scoresClass.js';
-import displayScores from './showScores.js'
-
+import displayScores from './showScores.js';
 
 const addNewScore = () => {
   const newName = document.querySelector('#name-input');
@@ -10,12 +9,12 @@ const addNewScore = () => {
     e.preventDefault();
     const newScoreList = new ScoresClass();
     const playname = newName.value;
-    const playscore = newScore.value; 
-    if (playname !== '' && playscore !== '') { 
+    const playscore = newScore.value;
+    if (playname !== '' && playscore !== '') {
       newScoreList.addScore(playname, playscore);
       displayScores();
       theForm.reset();
-    } 
+    }
   });
 };
 
