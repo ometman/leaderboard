@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>leaderboard</title>
+  <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+  <body>
+     <!--app body container-->
+    <div class="container mt-5">
+      <h1 class="row ">Leaderboard</h1> 
+      <div class="row gx-5">
+        <!--left col-->
+        <div class="col-sm-6">   
+          <div class="row mt-4">
+            <!-- use card-header class later-->
+              <h3 class="col-9 px-0 ">Recent scores</h3>
+              <btn id="score-refresh-btn" class="btn btn-primary btn-md  col-3 mb-2">Refresh</btn>
+          </div>
+          <div class="row display-row">
+            <div id="display-container" class="card display-container">
+            <!--scores listing-->
+            </div>
+          </div>
+        </div>  
+        <!--right col-->
+        <div class="col-sm-6">
+          <div class="row mt-4">
+            <!-- use card-header class later-->
+            <h3 class="px-0 mb-3">Add your score</h3>
+          </div>
+          <div class="row">
+            <div class="card text-right">
+              <form id="game-form" class="my-3 text-right">
+                <!-- <label id="name-label" for="name-input" class=".sr-only"> Enter your name</label> -->
+                <input id="name-input" type="text" class=" my-2 border-1 p-2 name form-control" type="text"  placeholder="Your name" required/>
+                <!-- <label id="score-label" for="score-input" class=".sr-only"> Enter your score</label> -->
+                <input id="score-input"  type="number" class="my-4 border-1 p-2 score form-control" type="text" placeholder="Your score" required/>
+                <button id="submit" type="submit" class="submit-score btn btn-primary btn-md mt-2 ">Submit</button>
+              </form> 
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
