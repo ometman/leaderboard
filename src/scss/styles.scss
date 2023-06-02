@@ -1,0 +1,41 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+// Import bootstrap icons
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+}
+
+.bottom-container {
+  background-color: #f6f6f6;
+}
+
+.display-container {
+  height: 30%;
+  scroll-behavior: auto;
+}
+
+#name-label,
+#score-label {
+  display: none;
+}
+
+.errorcolor {
+  background-color: #fe2335;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+  width: 80%;
+  margin: 3% 0 0 30%;
+  background-color: #fe2335;
+}
+
+.submit-score {
+  margin-left: 85%;
+}
