@@ -8,16 +8,16 @@
   <body>
      <!--app body container-->
     <div class="container mt-5">
-      <h1 class="row ">Leaderboard</h1> 
+      <h1 class="row bg-light">Leaderboard</h1> 
       <div class="row gx-5">
         <!--left col-->
         <div class="col-sm-6">   
-          <div class="row mt-4">
+          <div class="row mt-4 bg-light">
             <!-- use card-header class later-->
-              <h3 class="col-9 px-0 ">Recent scores</h3>
-              <btn id="score-refresh-btn" class="btn btn-primary btn-md  col-3 mb-2">Refresh</btn>
+              <h2 class="col-9 px-0 pt-1 ">Recent scores</h2>
+              <btn id="score-refresh-btn" class="btn btn-primary btn-md  col-3 mb-2 regular shadow bg-warning mt-1 border-0">Refresh</btn>
           </div>
-          <div class="row display-row">
+          <div class="row display-row regular shadow">
             <div id="display-container" class="card display-container">
             <!--scores listing-->
             </div>
@@ -27,16 +27,16 @@
         <div class="col-sm-6">
           <div class="row mt-4">
             <!-- use card-header class later-->
-            <h3 class="px-0 mb-3">Add your score</h3>
+            <h2 class="px-0 mb-3">Add your score</h2>
           </div>
-          <div class="row">
+          <div class="row regular shadow">
             <div class="card text-right">
               <form id="game-form" class="my-3 text-right">
                 <!-- <label id="name-label" for="name-input" class=".sr-only"> Enter your name</label> -->
                 <input id="name-input" type="text" class=" my-2 border-1 p-2 name form-control" type="text"  placeholder="Your name" required/>
                 <!-- <label id="score-label" for="score-input" class=".sr-only"> Enter your score</label> -->
                 <input id="score-input"  type="number" class="my-4 border-1 p-2 score form-control" type="text" placeholder="Your score" required/>
-                <button id="submit" type="submit" class="submit-score btn btn-primary btn-md mt-2 ">Submit</button>
+                <button id="submit" type="submit" class="submit-score btn btn-primary btn-md mt-2 border-0 bg-warning regular shadow">Submit</button>
               </form> 
             </div>
           </div> 

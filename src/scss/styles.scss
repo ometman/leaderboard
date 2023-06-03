@@ -8,6 +8,14 @@ body {
   background-color: #f6f6f6;
 }
 
+h2 {
+  color: #d09d05;
+}
+
+.score-bg {
+ background-color: #efefeff8;
+}
+
 .bottom-container {
   background-color: #f6f6f6;
 }
@@ -27,5 +35,7 @@ body {
 }
 
 .submit-score {
-  margin-left: 85%;
+  position: relative;
+  margin-left: 70%;
+  width: 30%;
 }
